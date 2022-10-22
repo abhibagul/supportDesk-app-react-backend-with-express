@@ -16,7 +16,7 @@ app.post('/hello', (req, res) => {
 
 /**
  * /API/question/@Param = questionId
- * get details by post
+ * get details by post of post
  */
 app.get('/API/question/:postUri', async (req, res) => {
     const { postUri } = req.params;
